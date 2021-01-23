@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARKEATE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="pedidos.css">
+    
+</head>
+<body>
+    <header>
+        <h1> <a href="index.html">darkeate</a></h1>
+    <div class="menu">
+        <nav>
+            <ul class="menunav"> 
+                <li><a class="navbar" href="index.html">INICIO</a></li>
+                <li><a class="navbar" href="remeras.html">REMERAS </a></li>
+                <li><a class="navbar" href="medidascolores.html">MEDIDAS Y COLORES</a></li>
+                <li><a class="navbar" href="envios.html">ENVÍOS Y MEDIOS DE PAGO</a></li>
+                <li><a class="navbar" href="pedidos.html">PEDIDOS</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="socials">
+        <div> 
+            <a href="#"><img class="social1" src="img/whatsapp.png" alt="whatsapp"></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/darkeate/"><img class="social2" src="img/insta.png" alt="instagram"></a>
+        </div>
+    </div>
+        <div class="formulario">
+            <div class="formulario1">
+            <form action="https://formspree.io/f/xeqplbok" method="post ">
+                <label for="nombre">nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="telefono">celular</label>
+                <input type="text" id="telefono" name="telefono" required>
+                
+                <label for="email">e-Mail</label>
+                <input type="text" id="email" name="email" required>
+                
+                <label for="cantidad">cantidad remeras</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+                
+            </div>
+            <div class="formulario1">
+                <label for="talle">talle</label>
+                <input type="text" name="talle" id="talle" required>
+                
+                <label for="color">color remera/s</label>
+                <input type="text" name="color" id="color" required>
+                
+                <label for="estampas">color estampa/s</label>
+                <input type="text" name="estampas" name="estampas" required>
+                
+                <label for="pago">medio de pago</label>
+                <input type="text" name="pago" id="pago" required>
+                
+                <input type="submit" class="enviar" name="enviar" id="enviar" required>
+            </div>
+            </form>
+        </div>
+</main>
+<footer>
+    <div class="piepag">
+        <p>Cualquier consulta contactanos</p>
+        <a href="https://www.instagram.com/darkeate/" class="linkfooter">instagram @darkeate</a>
+        <p>whatsapp xxxxxxxxxx</p>
+        <a href="mailto:darkeate@gmail.com" class="linkfooter">darkeate@gmail.com</a>
+     </div>
+</footer>
+</body>
+</html>
